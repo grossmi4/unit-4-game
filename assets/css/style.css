@@ -2,9 +2,24 @@ h1{
   font-size: 24px;
 }
 
+div{
+  display: inline-block;
+}
+
 span{
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+}
+
+body{
+  background: url("../images.round.png") repeat;
+}
+
+.game-container{
+  margin: 30px;
+  background-color: #eeeeee;
+  display: inline-block;
+  padding: 10px;
 }
 
 .crystals{
@@ -12,4 +27,15 @@ span{
   height: 120px;
   line-height: 120px;
   display: inline-block;
+  text-align: center;
+  color: #444;
+  background-color: #fff;
+}
+
+.cnTarget, .cnPlayerValue{
+  width: 50%;
+}
+
+.cnWinLoss{
+
 }

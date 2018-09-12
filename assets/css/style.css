@@ -12,19 +12,21 @@ span{
 }
 
 body{
-  background: url("../images.round.png") repeat;
+  background: url("../images/round.png") repeat;
 }
 
 .game-container{
-  margin: 30px;
+  position: relative;
+  margin: auto;
   background-color: #eeeeee;
   display: inline-block;
   padding: 10px;
+  width: 1020px;
 }
 
 .crystals{
-  width: 120px;
-  height: 120px;
+  width: 250px;
+  height: 250px;
   line-height: 120px;
   display: inline-block;
   text-align: center;
@@ -32,8 +34,19 @@ body{
   background-color: #fff;
 }
 
+.crystal{
+  width: 250px;
+  height: 250px;
+}
+
 .cnTarget, .cnPlayerValue{
-  width: 50%;
+  width: 245px;
+  padding: 20px 0;
+  line-height: 48px;
+}
+
+#target, #playerValue{
+  font-size: 36px;
 }
 
 .cnWinLoss{
